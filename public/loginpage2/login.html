@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/ico" href="public/images/favico.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- {{!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> --}} -->
+    <link rel="stylesheet" href="/login.css">
+    <title>CONNFLICT</title>
+</head>
+<body>
+    
+  <div class="background-wrap">
+  <div class="background"></div>
+</div> 
+
+
+<center><img src="images/connlogo.png" class="sitelogo"></center>
+
+
+<form id="accesspanel" action="" method="" onsubmit="login()">
+  <h1 id="litheader">CREDENTIALS REQUIRED!</h1>
+  <div class="inset">
+    <p>
+      <input type="text" name="email" id="email" placeholder="ALIAS@DOMAIN">
+    </p>
+    <p>
+      <input type="password" name="password" id="password" placeholder="ACCESS-CODE">
+    </p>
+    <div style="text-align: center;">
+    </div>
+    <input class="loginLoginValue" type="hidden" name="service" value="login" />
+  </div>
+  <p class="p-container">
+    <input type="submit" name="Login" id="go" value="Authorize">
+  </p>
+  <center><a href="/register.html">Request Access</a></center>
+  <center><a href="https://www.connflict.com:3000/forgotpass">Forgot Password</a></center>
+</form>
+
+
+<center><p>
+    https://discord.gg/KCw5zGFshN - Official Discord
+</p></center>
+
+
+<script src="socketio.js"></script>
+<script src="client.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+body{
+    background-color: pink;
+    height:100%;
+    font-family: "Monaco","Lucida Console", "monospace";
+    font-size:18px;
+    color:grey;
+    background-color: black;
+    
+}
+
+.sitelogo{
+    width:300px;
+}
+
+.loginregister{
+    width:50%;
+    height:50%;
+    margin:auto;
+    /* top: 50%;
+    transform: translate(0, -50%); */
+}
+a{
+    color:orangered
+}
+a:hover{
+    color:red;
+}
+
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+/* hiding divs by default */
+
+#maincontainer,#registerpage{
+    display:none;
+}
+
+.fullscreen{
+    position:fixed;
+    z-index: 1;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    padding:4px;
+       
+}
+
+.input{
+    position:relative;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100%;
+    caret-color: gray;
+    background: transparent;
+    border: none;
+    height:25px;
+    font-size: 18px;
+    color:gray;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+/* DEFINING COLS */
+.col{
+    float:left;
+    height:100%;
+    margin-left:0.1%;
+    width:33%
+}
+
+#col1{
+    width:33%;
+    float:left;
+    /* background-color: red; */
+}
+
+#col3{
+    float:left;
+    height:100%;
+    width:33%;
+    /* background-color: blue; */
+
+}
+#col2{
+    float:left;
+    height:100%;
+    width:33%;
+    /* background-color: green; */
+}
+
+/* DEFINING BOX SIZES! */
+#row1,#row3,#row5{
+    height:calc(25%);
+    /* background-color: pink; */
+}
+#row2,#row4,#row6{
+    height:calc(75%);
+    /* background-color: blue; */
+}
+#row7,#row8{
+    height:calc(50%);
+}
+
+.box_border{
+    border: 1px grey;
+    border-style: solid;
+    height:calc(100%);
+}
+
+.box{
+    height:50%;
+}
+
+.box_legend{
+    margin-left: 1em;
+    padding: 0.2em 0.8em ;
+}
+
+.box_contents{
+    height:100%;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    word-wrap: break-word;
+}
+
+.box_contents::-webkit-scrollbar {
+    display: none;
+  }
+
+#box1,#box2,#box3,#box4,#box5,#terminal-content,#chat-content{
+    height:calc(100% - 25px);
+}
+
+#chat-messages{
+    width: fit-content;
+    word-break:break-word;
+  }
+
+#box6{
+    width:calc(50%);
+    height:calc(100% - 25px);
+    float:left;
+}
+#box7{
+    width:calc(50%);
+    height:calc(100% - 25px);
+    float:right;
+}
+#box8{
+    height:calc(100% - 25px);
+}
+
+#notepad{
+    resize:none;
+    width:100%;
+    height:100%;
+    font-family: "Monaco","Lucida Console", "monospace";
+    font-size:18px;
+    color:grey;
+    background-color: black;
+    border:none;
+}
+
+li{
+    list-style-type: none;
+}
